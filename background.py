@@ -27,6 +27,7 @@ class FixedBackground:
         # fill here
         self.window_left = int(server.boy.x) - self.cw // 2
         self.window_bottom = int(server.boy.y) - self.ch // 2
+
         # 클리핑 영역 계산, 슬라이드의 ?? 좌표.
 
         self.window_left = clamp(0, self.window_left, self.w - self.cw - 1)
